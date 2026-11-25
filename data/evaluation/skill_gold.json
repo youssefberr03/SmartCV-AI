@@ -1,0 +1,322 @@
+[
+    {
+        "id": "EN_001",
+        "language": "en",
+        "text": "Experienced in Java and Python.",
+        "expected": [
+            {
+                "skill": "Java",
+                "status": "asserted"
+            },
+            {
+                "skill": "Python",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "EN_002",
+        "language": "en",
+        "text": "Technical skills: SQL, PostgreSQL and Docker.",
+        "expected": [
+            {
+                "skill": "SQL",
+                "status": "asserted"
+            },
+            {
+                "skill": "PostgreSQL",
+                "status": "asserted"
+            },
+            {
+                "skill": "Docker",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "EN_003",
+        "language": "en",
+        "text": "No experience with Java or Kubernetes.",
+        "expected": [
+            {
+                "skill": "Java",
+                "status": "negated"
+            },
+            {
+                "skill": "Kubernetes",
+                "status": "negated"
+            }
+        ]
+    },
+    {
+        "id": "EN_004",
+        "language": "en",
+        "text": "Currently learning Docker and React.js.",
+        "expected": [
+            {
+                "skill": "Docker",
+                "status": "learning"
+            },
+            {
+                "skill": "React.js",
+                "status": "learning"
+            }
+        ]
+    },
+    {
+        "id": "EN_005",
+        "language": "en",
+        "text": "Interested in Machine Learning.",
+        "expected": [
+            {
+                "skill": "Machine Learning",
+                "status": "interest"
+            }
+        ]
+    },
+    {
+        "id": "EN_006",
+        "language": "en",
+        "text": "Employment history. Current position.",
+        "expected": []
+    },
+    {
+        "id": "EN_007",
+        "language": "en",
+        "text": "Built REST APIs using Spring Boot and PostgreSQL.",
+        "expected": [
+            {
+                "skill": "REST API",
+                "status": "asserted"
+            },
+            {
+                "skill": "Spring Boot",
+                "status": "asserted"
+            },
+            {
+                "skill": "PostgreSQL",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "EN_008",
+        "language": "en",
+        "text": "Experienced in C++ and C#.",
+        "expected": [
+            {
+                "skill": "C++",
+                "status": "asserted"
+            },
+            {
+                "skill": "C#",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "EN_009",
+        "language": "en",
+        "text": "Experienced in Docker. No experience with Docker.",
+        "expected": [
+            {
+                "skill": "Docker",
+                "status": "conflicting"
+            }
+        ]
+    },
+    {
+        "id": "EN_010",
+        "language": "en",
+        "text": "I enjoy the spring weather.",
+        "expected": []
+    },
+    {
+        "id": "EN_011",
+        "language": "en",
+        "text": "Experienced in JavaScript and TypeScript.",
+        "expected": [
+            {
+                "skill": "JavaScript",
+                "status": "asserted"
+            },
+            {
+                "skill": "TypeScript",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "EN_012",
+        "language": "en",
+        "text": "TECHNICAL SKILLS\nPython\nDocker\nGit",
+        "expected": [
+            {
+                "skill": "Python",
+                "status": "asserted"
+            },
+            {
+                "skill": "Docker",
+                "status": "asserted"
+            },
+            {
+                "skill": "Git",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "FR_001",
+        "language": "fr",
+        "text": "Je maîtrise Java et Python.",
+        "expected": [
+            {
+                "skill": "Java",
+                "status": "asserted"
+            },
+            {
+                "skill": "Python",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "FR_002",
+        "language": "fr",
+        "text": "Compétences techniques : SQL et PostgreSQL.",
+        "expected": [
+            {
+                "skill": "SQL",
+                "status": "asserted"
+            },
+            {
+                "skill": "PostgreSQL",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "FR_003",
+        "language": "fr",
+        "text": "Aucune expérience en Docker ou Kubernetes.",
+        "expected": [
+            {
+                "skill": "Docker",
+                "status": "negated"
+            },
+            {
+                "skill": "Kubernetes",
+                "status": "negated"
+            }
+        ]
+    },
+    {
+        "id": "FR_004",
+        "language": "fr",
+        "text": "En cours d'apprentissage de Python.",
+        "expected": [
+            {
+                "skill": "Python",
+                "status": "learning"
+            }
+        ]
+    },
+    {
+        "id": "FR_005",
+        "language": "fr",
+        "text": "Intéressé par l'apprentissage automatique.",
+        "expected": [
+            {
+                "skill": "Machine Learning",
+                "status": "interest"
+            }
+        ]
+    },
+    {
+        "id": "FR_006",
+        "language": "fr",
+        "text": "Poste actuel et parcours professionnel.",
+        "expected": []
+    },
+    {
+        "id": "FR_007",
+        "language": "fr",
+        "text": "Expérience en Spring Boot et Java.",
+        "expected": [
+            {
+                "skill": "Spring Boot",
+                "status": "asserted"
+            },
+            {
+                "skill": "Java",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "FR_008",
+        "language": "fr",
+        "text": "Je maîtrise C++ et C#.",
+        "expected": [
+            {
+                "skill": "C++",
+                "status": "asserted"
+            },
+            {
+                "skill": "C#",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "FR_009",
+        "language": "fr",
+        "text": "Je maîtrise Docker. Aucune expérience en Docker.",
+        "expected": [
+            {
+                "skill": "Docker",
+                "status": "conflicting"
+            }
+        ]
+    },
+    {
+        "id": "FR_010",
+        "language": "fr",
+        "text": "Bonjour et bienvenue.",
+        "expected": []
+    },
+    {
+        "id": "FR_011",
+        "language": "fr",
+        "text": "Expérience en Node.js et TypeScript.",
+        "expected": [
+            {
+                "skill": "Node.js",
+                "status": "asserted"
+            },
+            {
+                "skill": "TypeScript",
+                "status": "asserted"
+            }
+        ]
+    },
+    {
+        "id": "FR_012",
+        "language": "fr",
+        "text": "COMPÉTENCES TECHNIQUES\nJava\nDocker\nGit",
+        "expected": [
+            {
+                "skill": "Java",
+                "status": "asserted"
+            },
+            {
+                "skill": "Docker",
+                "status": "asserted"
+            },
+            {
+                "skill": "Git",
+                "status": "asserted"
+            }
+        ]
+    }
+]

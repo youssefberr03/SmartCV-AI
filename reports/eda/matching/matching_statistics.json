@@ -1,0 +1,218 @@
+{
+    "resumes": {
+        "rows": 10000,
+        "columns": [
+            "resume_id",
+            "role",
+            "seniority",
+            "years_experience",
+            "industry",
+            "education",
+            "skills",
+            "summary",
+            "experience_bullets"
+        ],
+        "missing_values": {
+            "resume_id": 0,
+            "role": 0,
+            "seniority": 0,
+            "years_experience": 0,
+            "industry": 0,
+            "education": 0,
+            "skills": 0,
+            "summary": 0,
+            "experience_bullets": 0
+        },
+        "column_structures": {
+            "resume_id": {
+                "value_types": {
+                    "str": 10000
+                }
+            },
+            "role": {
+                "value_types": {
+                    "str": 10000
+                }
+            },
+            "seniority": {
+                "value_types": {
+                    "str": 10000
+                }
+            },
+            "years_experience": {
+                "value_types": {
+                    "int": 10000
+                }
+            },
+            "industry": {
+                "value_types": {
+                    "str": 10000
+                }
+            },
+            "education": {
+                "value_types": {
+                    "str": 10000
+                }
+            },
+            "skills": {
+                "value_types": {
+                    "list": 10000
+                },
+                "list_statistics": {
+                    "list_count": 10000,
+                    "min_length": 5,
+                    "max_length": 8,
+                    "average_length": 6.4888,
+                    "total_elements": 64888
+                }
+            },
+            "summary": {
+                "value_types": {
+                    "str": 10000
+                }
+            },
+            "experience_bullets": {
+                "value_types": {
+                    "list": 10000
+                },
+                "list_statistics": {
+                    "list_count": 10000,
+                    "min_length": 3,
+                    "max_length": 3,
+                    "average_length": 3.0,
+                    "total_elements": 30000
+                }
+            }
+        }
+    },
+    "jobs": {
+        "rows": 2500,
+        "columns": [
+            "job_id",
+            "job_title",
+            "seniority",
+            "industry",
+            "must_have_skills",
+            "nice_to_have_skills",
+            "description",
+            "responsibilities",
+            "requirements"
+        ],
+        "missing_values": {
+            "job_id": 0,
+            "job_title": 0,
+            "seniority": 0,
+            "industry": 0,
+            "must_have_skills": 0,
+            "nice_to_have_skills": 0,
+            "description": 0,
+            "responsibilities": 0,
+            "requirements": 0
+        },
+        "column_structures": {
+            "job_id": {
+                "value_types": {
+                    "str": 2500
+                }
+            },
+            "job_title": {
+                "value_types": {
+                    "str": 2500
+                }
+            },
+            "seniority": {
+                "value_types": {
+                    "str": 2500
+                }
+            },
+            "industry": {
+                "value_types": {
+                    "str": 2500
+                }
+            },
+            "must_have_skills": {
+                "value_types": {
+                    "list": 2500
+                },
+                "list_statistics": {
+                    "list_count": 2500,
+                    "min_length": 3,
+                    "max_length": 5,
+                    "average_length": 3.9972,
+                    "total_elements": 9993
+                }
+            },
+            "nice_to_have_skills": {
+                "value_types": {
+                    "list": 2500
+                },
+                "list_statistics": {
+                    "list_count": 2500,
+                    "min_length": 1,
+                    "max_length": 1,
+                    "average_length": 1.0,
+                    "total_elements": 2500
+                }
+            },
+            "description": {
+                "value_types": {
+                    "str": 2500
+                }
+            },
+            "responsibilities": {
+                "value_types": {
+                    "list": 2500
+                },
+                "list_statistics": {
+                    "list_count": 2500,
+                    "min_length": 3,
+                    "max_length": 3,
+                    "average_length": 3.0,
+                    "total_elements": 7500
+                }
+            },
+            "requirements": {
+                "value_types": {
+                    "list": 2500
+                },
+                "list_statistics": {
+                    "list_count": 2500,
+                    "min_length": 3,
+                    "max_length": 3,
+                    "average_length": 3.0,
+                    "total_elements": 7500
+                }
+            }
+        }
+    },
+    "matches": {
+        "rows": 2500,
+        "columns": [
+            "job_id",
+            "relevant_resume_ids"
+        ],
+        "missing_values": {
+            "job_id": 0,
+            "relevant_resume_ids": 0
+        },
+        "column_structures": {
+            "job_id": {
+                "value_types": {
+                    "str": 2500
+                }
+            },
+            "relevant_resume_ids": {
+                "value_types": {
+                    "list": 2500
+                },
+                "list_statistics": {
+                    "list_count": 2500,
+                    "min_length": 30,
+                    "max_length": 30,
+                    "average_length": 30.0,
+                    "total_elements": 75000
+                }
+            }
+        }
+    }
+}

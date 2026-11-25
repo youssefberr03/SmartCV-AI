@@ -1,0 +1,160 @@
+[
+    {
+        "dataset": "Resume Dataset",
+        "path": "resumes/Resume.csv",
+        "available": true,
+        "rows": 2484,
+        "columns": 4,
+        "size_mb": 53.666,
+        "format": ".csv",
+        "column_names": [
+            "ID",
+            "Resume_str",
+            "Resume_html",
+            "Category"
+        ]
+    },
+    {
+        "dataset": "Job Postings",
+        "path": "jobs/postings.csv",
+        "available": true,
+        "rows": 123849,
+        "columns": 31,
+        "size_mb": 492.901,
+        "format": ".csv",
+        "column_names": [
+            "job_id",
+            "company_name",
+            "title",
+            "description",
+            "max_salary",
+            "pay_period",
+            "location",
+            "company_id",
+            "views",
+            "med_salary",
+            "min_salary",
+            "formatted_work_type",
+            "applies",
+            "original_listed_time",
+            "remote_allowed",
+            "job_posting_url",
+            "application_url",
+            "application_type",
+            "expiry",
+            "closed_time",
+            "formatted_experience_level",
+            "skills_desc",
+            "listed_time",
+            "posting_domain",
+            "sponsored",
+            "work_type",
+            "currency",
+            "compensation_type",
+            "normalized_salary",
+            "zip_code",
+            "fips"
+        ]
+    },
+    {
+        "dataset": "ESCO English",
+        "path": "esco/en/skills_en.csv",
+        "available": true,
+        "rows": 13896,
+        "columns": 13,
+        "size_mb": 9.041,
+        "format": ".csv",
+        "column_names": [
+            "conceptType",
+            "conceptUri",
+            "skillType",
+            "reuseLevel",
+            "preferredLabel",
+            "altLabels",
+            "hiddenLabels",
+            "status",
+            "modifiedDate",
+            "scopeNote",
+            "definition",
+            "inScheme",
+            "description"
+        ]
+    },
+    {
+        "dataset": "ESCO French",
+        "path": "esco/fr/skills_fr.csv",
+        "available": true,
+        "rows": 13896,
+        "columns": 13,
+        "size_mb": 6.892,
+        "format": ".csv",
+        "column_names": [
+            "conceptType",
+            "conceptUri",
+            "skillType",
+            "reuseLevel",
+            "preferredLabel",
+            "altLabels",
+            "hiddenLabels",
+            "status",
+            "modifiedDate",
+            "scopeNote",
+            "definition",
+            "inScheme",
+            "description"
+        ]
+    },
+    {
+        "dataset": "Matching Resumes",
+        "path": "matching/resumes.jsonl",
+        "available": true,
+        "rows": 10000,
+        "columns": 9,
+        "size_mb": 5.138,
+        "format": ".jsonl",
+        "column_names": [
+            "resume_id",
+            "role",
+            "seniority",
+            "years_experience",
+            "industry",
+            "education",
+            "skills",
+            "summary",
+            "experience_bullets"
+        ]
+    },
+    {
+        "dataset": "Matching Jobs",
+        "path": "matching/jobs.jsonl",
+        "available": true,
+        "rows": 2500,
+        "columns": 9,
+        "size_mb": 1.608,
+        "format": ".jsonl",
+        "column_names": [
+            "job_id",
+            "job_title",
+            "seniority",
+            "industry",
+            "must_have_skills",
+            "nice_to_have_skills",
+            "description",
+            "responsibilities",
+            "requirements"
+        ]
+    },
+    {
+        "dataset": "Matching References",
+        "path": "matching/matches.jsonl",
+        "available": true,
+        "rows": 2500,
+        "columns": 2,
+        "size_mb": 0.896,
+        "format": ".jsonl",
+        "column_names": [
+            "job_id",
+            "relevant_resume_ids"
+        ]
+    }
+]

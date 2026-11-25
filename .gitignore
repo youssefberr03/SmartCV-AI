@@ -1,64 +1,48 @@
 
-# ==========================================
-# SMARTCV AI - GIT CONFIGURATION
-# ==========================================
-
-# Environnements virtuels
+# Python
 .venv/
-venv/
-env/
-
-# Cache Python
 __pycache__/
 *.pyc
-*.pyo
 .pytest_cache/
-.mypy_cache/
 
-# Datasets et documents personnels
-/data/raw/*
-/data/processed/*
-/data/samples/*
-!**/.gitkeep
-
-# CV importes par les utilisateurs
-uploads/
-private_documents/
-
-# Modeles IA volumineux
-*.joblib
-*.pkl
-*.pickle
-*.pt
-*.pth
-*.onnx
-*.safetensors
-
-# Variables d'environnement et secrets
+# Environment variables
 .env
 .env.*
 !.env.example
 
-# Backend Java
-target/
-*.class
+# Datasets and generated data
+data/raw/
+data/processed/
+data/samples/
+data/evaluation/real_cv_annotations.json
 
-# Frontend React
-node_modules/
-dist/
-build/
+# Generated reports
+reports/extraction/
+reports/preprocessing/
+reports/linguistic/
+reports/skills/
+reports/skills_v*/
+reports/skills_final/
+reports/evaluation/
 
-# Editeurs
+# AI models
+*.pkl
+*.joblib
+*.pt
+*.pth
+*.safetensors
+
+# Java
+backend/target/
+
+# React
+frontend/node_modules/
+frontend/dist/
+
+# IDE
 .idea/
 .vscode/
-*.iml
 
-# Fichiers systeme
+# Operating system
 .DS_Store
 Thumbs.db
-
-# Fichiers temporaires
-*.tmp
-*.log
-*.bak
-reports/eda/

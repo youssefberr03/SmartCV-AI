@@ -7,3 +7,5 @@ seaborn
 pymupdf
 pytest
 datasets
+spacy
+langdetect

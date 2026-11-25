@@ -1,0 +1,13 @@
+{
+    "english_rows": 13896,
+    "french_rows": 13896,
+    "english_unique_ids": 13896,
+    "french_unique_ids": 13896,
+    "common_ids": 13896,
+    "english_only_ids": 0,
+    "french_only_ids": 0,
+    "english_duplicate_ids": 0,
+    "french_duplicate_ids": 0,
+    "english_missing_ids": 0,
+    "french_missing_ids": 0
+}
