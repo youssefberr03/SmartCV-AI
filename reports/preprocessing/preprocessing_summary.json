@@ -1,0 +1,13 @@
+{
+    "total_documents": 2484,
+    "successful": 2483,
+    "excluded_empty": 1,
+    "failed": 0,
+    "original_characters": 15779195,
+    "cleaned_characters": 14781331,
+    "removed_characters": 997864,
+    "character_reduction_percentage": 6.3239,
+    "original_words": 2017581,
+    "cleaned_words": 2017633,
+    "total_execution_time": 20.54
+}

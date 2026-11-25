@@ -1,0 +1,13 @@
+{
+    "total_documents": 2484,
+    "successful": 2474,
+    "skipped": 10,
+    "failed": 0,
+    "available_documents": 2484,
+    "empty_documents": 1,
+    "ocr_required": 0,
+    "total_pages": 4881,
+    "total_words": 2017581,
+    "total_characters": 15779195,
+    "total_execution_time": 150.73
+}

@@ -61,3 +61,4 @@ Thumbs.db
 *.tmp
 *.log
 *.bak
+reports/eda/

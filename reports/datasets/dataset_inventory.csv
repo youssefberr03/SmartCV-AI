@@ -1,0 +1,8 @@
+dataset,path,available,rows,columns,size_mb,format,column_names
+Resume Dataset,resumes/Resume.csv,True,2484,4,53.666,.csv,"['ID', 'Resume_str', 'Resume_html', 'Category']"
+Job Postings,jobs/postings.csv,True,123849,31,492.901,.csv,"['job_id', 'company_name', 'title', 'description', 'max_salary', 'pay_period', 'location', 'company_id', 'views', 'med_salary', 'min_salary', 'formatted_work_type', 'applies', 'original_listed_time', 'remote_allowed', 'job_posting_url', 'application_url', 'application_type', 'expiry', 'closed_time', 'formatted_experience_level', 'skills_desc', 'listed_time', 'posting_domain', 'sponsored', 'work_type', 'currency', 'compensation_type', 'normalized_salary', 'zip_code', 'fips']"
+ESCO English,esco/en/skills_en.csv,True,13896,13,9.041,.csv,"['conceptType', 'conceptUri', 'skillType', 'reuseLevel', 'preferredLabel', 'altLabels', 'hiddenLabels', 'status', 'modifiedDate', 'scopeNote', 'definition', 'inScheme', 'description']"
+ESCO French,esco/fr/skills_fr.csv,True,13896,13,6.892,.csv,"['conceptType', 'conceptUri', 'skillType', 'reuseLevel', 'preferredLabel', 'altLabels', 'hiddenLabels', 'status', 'modifiedDate', 'scopeNote', 'definition', 'inScheme', 'description']"
+Matching Resumes,matching/resumes.jsonl,True,10000,9,5.138,.jsonl,"['resume_id', 'role', 'seniority', 'years_experience', 'industry', 'education', 'skills', 'summary', 'experience_bullets']"
+Matching Jobs,matching/jobs.jsonl,True,2500,9,1.608,.jsonl,"['job_id', 'job_title', 'seniority', 'industry', 'must_have_skills', 'nice_to_have_skills', 'description', 'responsibilities', 'requirements']"
+Matching References,matching/matches.jsonl,True,2500,2,0.896,.jsonl,"['job_id', 'relevant_resume_ids']"
