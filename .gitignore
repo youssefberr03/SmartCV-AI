@@ -1,48 +1,56 @@
 
 # Python
 .venv/
+venv/
 __pycache__/
-*.pyc
+*.py[cod]
 .pytest_cache/
+.coverage
+htmlcov/
 
-# Environment variables
+# Environment and secrets
 .env
 .env.*
 !.env.example
+*.pem
+*.key
 
-# Datasets and generated data
+# Datasets and private documents
 data/raw/
 data/processed/
 data/samples/
 data/evaluation/real_cv_annotations.json
+uploads/
 
 # Generated reports
-reports/extraction/
-reports/preprocessing/
-reports/linguistic/
-reports/skills/
-reports/skills_v*/
-reports/skills_final/
-reports/evaluation/
+reports/*
+!reports/.gitkeep
 
-# AI models
+# Machine learning models
 *.pkl
 *.joblib
 *.pt
 *.pth
 *.safetensors
+*.onnx
 
-# Java
-backend/target/
+# Java and Spring Boot
+target/
+*.class
 
-# React
-frontend/node_modules/
-frontend/dist/
+# React and Node.js
+node_modules/
+dist/
+build/
 
 # IDE
 .idea/
 .vscode/
+*.iml
 
 # Operating system
 .DS_Store
 Thumbs.db
+
+# Logs
+*.log
