@@ -108,6 +108,37 @@ for research and development.
 Original datasets and personal resume documents are not
 included in this repository.
 
+## Exploratory Data Analysis
+
+A comprehensive exploratory data analysis was conducted
+to understand document characteristics, data quality,
+professional category distributions and multilingual
+skill representations.
+
+### Resume Category Distribution
+
+![Resume Categories](docs/figures/resume_categories.png)
+
+### Resume Length Distribution
+
+![Resume Length](docs/figures/resume_length.png)
+
+### Job Description Length Distribution
+
+![Job Length](docs/figures/job_length.png)
+
+### Resume Lexical Diversity
+
+![Lexical Diversity](docs/figures/resume_lexical_diversity.png)
+
+### Zipf Distribution
+
+![Zipf Distribution](docs/figures/resume_zipf_distribution.png)
+
+For detailed statistics, methodology, limitations and
+technical conclusions, see the
+[Exploratory Data Analysis Report](docs/EDA_REPORT.md).
+
 ## Experimental Results
 
 ### Skill Extractor V3.2
@@ -221,7 +252,7 @@ in the expected local dataset directories.
 
 - [x] Project initialization
 - [x] Dataset collection
-- [ ] Exploratory data analysis validation
+- [x] Exploratory data analysis validation
 - [x] PDF extraction
 - [x] Text preprocessing
 - [x] Linguistic analysis
